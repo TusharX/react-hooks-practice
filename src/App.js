@@ -4,6 +4,10 @@ import CounterWithHooks from './Components/CounterWithHooks';
 import HooksArray from './Components/HooksArray';
 import ClassCounterTitle from './Components/ClassCounterTitle';
 import HookCounterTitle from './Components/HookCounterTitle';
+import ClassMouse from './Components/ClassMouse';
+import HookMouseContainer from './Components/HookMouseContainer';
+import ClassIntervalTimer from './Components/ClassIntervalTimer';
+import HooksIntervalTimer from './Components/HooksIntervalTimer';
 
 function App() {
   return (
@@ -14,7 +18,11 @@ function App() {
         {/* <CounterWithHooks /> */}
         {/* <HooksArray /> */}
         {/* <ClassCounterTitle /> */}
-        <HookCounterTitle />
+        {/* <HookCounterTitle /> */}
+        {/* <ClassMouse /> */}
+        {/* <HookMouseContainer /> */}
+        {/* <ClassIntervalTimer /> */}
+        <HooksIntervalTimer />
       </header>
     </div>
   );
