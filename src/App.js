@@ -8,6 +8,7 @@ import ClassMouse from './Components/ClassMouse';
 import HookMouseContainer from './Components/HookMouseContainer';
 import ClassIntervalTimer from './Components/ClassIntervalTimer';
 import HooksIntervalTimer from './Components/HooksIntervalTimer';
+import DataFetching from './Components/DataFetching';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         {/* <ClassMouse /> */}
         {/* <HookMouseContainer /> */}
         {/* <ClassIntervalTimer /> */}
-        <HooksIntervalTimer />
+        {/* <HooksIntervalTimer /> */}
+        <DataFetching />
       </header>
     </div>
   );
