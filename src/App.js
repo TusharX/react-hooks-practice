@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import CounterWithClasses from './Components/CounterWithClasses';
 import CounterWithHooks from './Components/CounterWithHooks';
 import HooksArray from './Components/HooksArray';
@@ -9,8 +10,15 @@ import HookMouseContainer from './Components/HookMouseContainer';
 import ClassIntervalTimer from './Components/ClassIntervalTimer';
 import HooksIntervalTimer from './Components/HooksIntervalTimer';
 import DataFetching from './Components/DataFetching';
+import User from './Components/Context/User';
+import UserUseContext from './Components/Context/UserUseContext';
+import CounterOneUseReducer from './Components/Context/CounterOneUseR';
+import Container from './Components/ContextUseReducer/Container';
+
+export const UserContext = React.createContext();
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +32,15 @@ function App() {
         {/* <HookMouseContainer /> */}
         {/* <ClassIntervalTimer /> */}
         {/* <HooksIntervalTimer /> */}
-        <DataFetching />
+        {/* <DataFetching /> */}
+        {/* <UserContext.Provider value="Tushar">
+          <User />
+          <UserUseContext/>
+        </UserContext.Provider> */}
+
+        {/* <CounterOneUseReducer/> */}
+
+        <Container />
       </header>
     </div>
   );
