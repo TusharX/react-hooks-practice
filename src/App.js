@@ -14,6 +14,10 @@ import User from './Components/Context/User';
 import UserUseContext from './Components/Context/UserUseContext';
 import CounterOneUseReducer from './Components/Context/CounterOneUseR';
 import Container from './Components/ContextUseReducer/Container';
+import DataFetchOne from './Components/UseReducerFetching/DataFetchOne';
+import DataFetchUseReducer from './Components/UseReducerFetching/DataFetchUseReducer';
+import Parent from './Components/UseCallback/Parent';
+
 
 export const UserContext = React.createContext();
 
@@ -40,7 +44,11 @@ function App() {
 
         {/* <CounterOneUseReducer/> */}
 
-        <Container />
+        {/* <Container /> */}
+        {/* <DataFetchOne /> */}
+        {/* <DataFetchUseReducer /> */}
+
+        <Parent />
       </header>
     </div>
   );
